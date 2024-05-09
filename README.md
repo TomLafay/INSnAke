@@ -61,12 +61,16 @@ Pour voir les deux IA jouer, suivez ces étapes :
 1. Clonez ce dépôt sur votre machine locale.
 2. Avoir python et pygame installés sur votre machine.
 Vous pouvez installer pygame en utilisant `python3 -m pip install -U pygame --user` ou `sudo apt-get install python3-pygame`
-3. Lancez le jeu en exécutant le script principal.
+3. Lancez le jeu en exécutant le script principal. Par défaut, le jeu utilise la fonction d'évaluation `evaluate_better` pour les deux serpents.
+
+```bash
+python main.py
+```
 
 Voici comment vous pouvez utiliser le script avec différents paramètres depuis le terminal :
 
 ```bash
-python main.py --depth 6 --width 500 --height 450 --grid_size 25 --fps 10 --eval_func 2 --eval_func_2 2
+python main.py --depth 10 --fps 20 --eval_func 4 --eval_func_2 2
 ```
 
 - `--depth`: Spécifie la profondeur pour l'algorithme Minimax. Assurez-vous que c'est un multiple de 2.
