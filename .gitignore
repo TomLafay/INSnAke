@@ -1,0 +1,24 @@
+# Fichiers générés par l'interpréteur Python
+__pycache__/
+*.pyc
+
+# Fichiers de configuration spécifiques à votre environnement de développement
+.env
+
+# Fichiers de dépendances
+venv/
+env/
+
+# Fichiers de sortie ou de build
+build/
+dist/
+*.egg-info/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+.lprof/
+Docs/
